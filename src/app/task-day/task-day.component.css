@@ -1,0 +1,10 @@
+.task-day {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.seperate-symbol {
+  display: flex;
+  align-items: center;
+  font-size: 3em;
+}

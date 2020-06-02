@@ -1,0 +1,8 @@
+<div>
+  <div task-item
+    class="task-item"
+    *ngFor="let task of getItems(); index as index"
+    [item]="task"
+    [index]="index">
+  </div>
+</div>

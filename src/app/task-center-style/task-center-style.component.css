@@ -1,0 +1,20 @@
+.task-finish-day  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.task-finish-day .neumorphic-text {
+  color: #000;
+}
+.neumorphic-text {
+  padding: 10px 20px;
+  text-align: center;
+  color: #8D96A8;
+}
+.day-label {
+  font-size: 1.4em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}

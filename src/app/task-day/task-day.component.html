@@ -1,0 +1,24 @@
+<div>
+  <div class="task-day">
+
+    <task-day-info
+      date_title="Start-Day"
+      [date_data]="task_day_component.task_start_day">
+    </task-day-info>
+
+    <span class="seperate-symbol">~</span>
+
+    <task-day-info
+      date_title="End-Day"
+      [date_data]="task_day_component.task_end_day">
+    </task-day-info>
+
+  </div>
+
+  <task-center-style
+    date_title="Finish-Day"
+    [date_descrption]="task_day_component.task_finish_day">
+
+  </task-center-style>
+
+</div>

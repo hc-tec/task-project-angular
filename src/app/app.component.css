@@ -1,0 +1,8 @@
+#app > * {
+  margin-bottom: 20px;
+}
+.back-forword-btn-group {
+  position: fixed;
+  top: 10%;
+  left: 20%;
+}

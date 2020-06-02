@@ -1,0 +1,19 @@
+<div class="task-details">
+  <p class="neumorphic-card">{{ item.task_title }}</p>
+  <div class="neumorphic-card__outer">
+    <task-day
+      [task_day_component]="item">
+    </task-day>
+
+    <task-center-style
+      date_title="Task-Description"
+      [date_descrption]="item.task_description">
+    </task-center-style>
+  </div>
+  <neumorphic-btn
+    *ngIf="!item.task_finish_day"
+    class="task-finish-btn"
+    (clickEventEmitter)="finishTask()">
+    完成任务
+  </neumorphic-btn>
+</div>

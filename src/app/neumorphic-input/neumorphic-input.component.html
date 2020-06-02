@@ -1,0 +1,11 @@
+<neumorphic-label>
+  {{ label }}
+</neumorphic-label>
+
+<input
+  #input
+  class="neumorphic-input"
+  [type]="type"
+  [value]="tmp_value"
+  [placeholder]="placeholder"
+  (blur)="valueChangeEmitter.emit(input.value)">

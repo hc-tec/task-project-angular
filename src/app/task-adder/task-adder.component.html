@@ -1,0 +1,16 @@
+<div class="task-adder">
+  <h1>任务添加组件</h1>
+  <div>
+    <neumorphic-input
+      *ngFor="let field of task_fields"
+      [label]="field.label"
+      [value]="field.value"
+      (valueChangeEmitter)="field.valueChangeMethod($event)">
+    </neumorphic-input>
+  </div>
+  <neumorphic-btn
+    class="task-add-btn"
+    (clickEventEmitter)="addTask()">
+    添加任务
+  </neumorphic-btn>
+</div>
